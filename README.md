@@ -1,7 +1,15 @@
-# Gerador-de-Senhas-com-PysimpleGUI
+# Password Generator - Aplicativo de Geração de Senhas
 
-Este aplicativo é um gerador de senhas com uma interface gráfica simples. Ele permite que o usuário armazene informações sobre o site ou software para o qual a senha será gerada, juntamente com seu e-mail ou nome de usuário. Além disso, o usuário pode configurar o tamanho da senha desejada.
+Este repositório contém o código-fonte de um aplicativo de geração de senhas, desenvolvido com a biblioteca Tkinter do Python. O aplicativo permite aos usuários gerar, armazenar e visualizar senhas seguras para diferentes sites e softwares.
 
-Ao clicar no botão "Gerar Senha", o aplicativo gera uma senha aleatória com base nas configurações fornecidas e exibe essa senha na saída. Ele também armazena essas informações, incluindo o site, o e-mail/usuário e a nova senha, em um arquivo de texto chamado "senhas.txt" para referência futura.
+## Funcionalidades
+- **Geração de Senhas Seguras:** Cria senhas aleatórias utilizando uma combinação de letras maiúsculas, minúsculas, números e caracteres especiais.
+- **Configuração Personalizável:** Permite ao usuário definir o número de caracteres da senha gerada.
+- **Armazenamento de Senhas:** Salva as senhas geradas juntamente com o site/software e o e-mail/usuário associado em um arquivo de texto.
+- **Visualização de Senhas:** Exibe as senhas salvas em uma nova janela de forma organizada e fácil de ler.
 
-O aplicativo utiliza a biblioteca PySimpleGUI para criar a interface gráfica e a biblioteca random para gerar senhas aleatórias. Ele fornece uma maneira conveniente e rápida para os usuários gerarem e armazenarem senhas seguras.
+## Tecnologias Utilizadas
+- **Python:** Linguagem de programação principal utilizada para desenvolver a lógica do aplicativo.
+- **Tkinter:** Biblioteca padrão do Python para criação de interfaces gráficas.
+- **Biblioteca `random`:** Utilizada para gerar senhas aleatórias.
+- **Manipulação de Arquivos:** Implementação de leitura e escrita de arquivos de texto para armazenar e recuperar as senhas geradas.
